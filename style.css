@@ -1,0 +1,31 @@
+body {
+	background-color: #49953f;
+	color: white;
+	padding-top: 10px;
+}
+
+h2{
+	color: white;
+}
+
+li {
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+li:hover {
+	border: 1px solid orange;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('http://bradsknutson.com/wp-content/uploads/2013/04/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
